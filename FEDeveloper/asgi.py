@@ -1,16 +1,3 @@
-"""
-ASGI config for FEDeveloper project.
-
-It exposes the ASGI callable as a module-level variable named ``application``.
-
-For more information on this file, see
-https://docs.djangoproject.com/en/3.2/howto/deployment/asgi/
-"""
-
-import os
-
-from django.core.asgi import get_asgi_application
-
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'FEDeveloper.settings')
-
-application = get_asgi_application()
+version https://git-lfs.github.com/spec/v1
+oid sha256:a33a694430dd2a5925493efa2915bdc69e0380fa19f785738b132f7a5f370612
+size 415

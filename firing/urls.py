@@ -1,25 +1,3 @@
-from django.urls import path
-
-from . import views
-
-urlpatterns = [
-    path('', views.home, name='home'),
-    path('dashboard/', views.dashboard, name='dashboard'),
-    path('result/', views.result, name='result'),
-    path('settings/', views.settings, name='settings'),
-
-    path('profile/', views.profile, name='profile'),
-
-    path('profile/<str:pk>/', views.profilepage, name='profilepage'),
-    path('weapon/', views.weapon, name='weapon'),
-    path('capture-image/', views.captureimage, name='captureimage'),
-    path('detection/', views.detectionResult, name='detectionResult'),
-
-
-    path('sign-up/', views.signup, name='signup'),
-    path('sign-in/', views.signin, name='signin'),
-    path('logout/', views.logoutuser, name='logout'),
-
-
-
-]
+version https://git-lfs.github.com/spec/v1
+oid sha256:99f22ad14b5e2cdeb21d98125194cb5045c730c942c663feab0751775fc16a5e
+size 1164

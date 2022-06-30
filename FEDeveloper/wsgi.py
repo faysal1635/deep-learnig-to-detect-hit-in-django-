@@ -1,16 +1,3 @@
-"""
-WSGI config for FEDeveloper project.
-
-It exposes the WSGI callable as a module-level variable named ``application``.
-
-For more information on this file, see
-https://docs.djangoproject.com/en/3.2/howto/deployment/wsgi/
-"""
-
-import os
-
-from django.core.wsgi import get_wsgi_application
-
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'FEDeveloper.settings')
-
-application = get_wsgi_application()
+version https://git-lfs.github.com/spec/v1
+oid sha256:e1b886c74ad06c74aef6ad33fdd7d0b69f94ee85526ed5b61b048c1b4db5609c
+size 415
